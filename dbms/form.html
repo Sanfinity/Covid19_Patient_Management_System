@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DBMS MINI PROJECT</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <style type="text/css">
+        body{ font: 25px Georgia, "Times New Roman", Times; }
+        .wrapper{ width: 1000px; padding: 50px; }
+		body, html {
+		height: 100%;
+		margin: 0;
+		letter-spacing: 2px;
+		line-height: 1.6;
+		font-variant: small-caps;
+
+		}
+
+		.bg {
+		background-image: url("https://media.giphy.com/media/xUA7aQWDNhElgR3NUQ/giphy.gif");
+		height: 100%; 
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		}
+    </style>
+</head>
+<body>
+<div class="bg">
+<div style="color:orange">
+<div <div align="center">
+    <div class="wrapper">
+	<h1>REGISTER</h1>
+        <p>Please Enter Your Data</p>
+  <title>Register Form</title>
+</head>
+<body>
+ <form action="insert.php" method="POST">
+  <table>
+   <tr>
+    <td>User Name : </td>
+    <td><input type="text" name="username" required></td>
+   </tr>
+   <tr>
+    <td>Password : </td>
+    <td><input type="password" name="password" required></td>
+   </tr>
+   <tr>
+    <td>Gender  : </td>
+    <td>
+     <input type="radio" name="gender" value="m" required>Male
+     <input type="radio" name="gender" value="f" required>Female
+    </td>
+   </tr>
+    <tr>
+    <td>Address : </td>
+    <td><input type="add" name="address" required></td>
+   </tr> 
+   <tr>
+    <td>Email : </td>
+    <td><input type="email" name="email" required></td>
+   </tr> 
+   <tr>
+    <td>Phone no : </td>
+    <td>
+     <select name="phoneCode" required>
+      <option selected hidden value="">Select Code</option>
+      <option value="+91">91</option>
+     </select>
+     <input type="phone" name="phone" required>
+    </td>
+   </tr>
+   <tr>
+    <td><input type="submit" class="btn btn-primary" value="Submit"></td>
+   </tr>
+   <tr>
+   <td>Already have an account? <a href="login.php">Login here</a></td>
+   </tr>
+  </table>
+ </form>
+</body>
+</html>
