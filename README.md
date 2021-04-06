@@ -9,3 +9,5 @@ Open Your browser Then
   - To see the Database info go to : https://locallhost.me/phpmyadmin
   - To see the Signup page go to   : http://localhost/dbms/form.html
   - To see the Login page go to    : http://localhost/dbms/login.php
+
+for more info read dbms_mini_project_part1.pdf and dbms_mini_project_part2.pdf files
